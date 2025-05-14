@@ -31,6 +31,7 @@ search_params = {
     "text": "Аптека",
     "ll": ','.join([toponym_longitude, toponym_lattitude]),
     "type": "biz",
+    "lang": "ru_RU",
 }
 search_api_server = "https://search-maps.yandex.ru/v1/"
 data = requests.get(search_api_server, params=search_params).json()
