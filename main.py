@@ -29,7 +29,6 @@ api_key = 'dda3ddba-c9ea-4ead-9010-f43fbc15c6e3'
 search_params = {
     "apikey": api_key,
     "text": "Аптека",
-    "lang": "ru_RU",
     "ll": ','.join([toponym_longitude, toponym_lattitude]),
     "type": "biz",
 }
